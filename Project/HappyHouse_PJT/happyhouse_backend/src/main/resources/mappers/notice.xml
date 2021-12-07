@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.NoticeMapper">
+
+	<insert id="writeArticle" parameterType="noticeDto">
+	<selectKey resultType="int" keyProperty="noticeId" order="BEFORE">
+			select MAX(noticeId) + 1 from notice
+		</selectKey>
+		insert into notice (title, content, author, date, noticeId, memberId)
+		values (#{title}, #{content}, #{author}, now(),#{noticeId}, #{author})
+	</insert>
+	
+	<select id="listArticle" parameterType="map" resultType="noticeDto">
+		select noticeId, author, title, content,
+				case when date_format(date, '%Y%m%d') = date_format(now(), '%Y%m%d')
+				then date_format(date, '%H:%i:%s')
+				else date_format(date, '%y.%m.%d')
+				end date
+		from notice
+		<if test="word != null and word != ''">
+			<if test="key == 'title'">
+				where title like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'title'">
+				where ${key} = #{word}
+			</if>
+		</if>
+		order by noticeId desc
+		limit #{start}, #{spp}
+	</select>
+
+	<select id="listAllArticle" parameterType="map" resultType="noticeDto">
+		select noticeId, author, title, content,
+			   case when date_format(date, '%Y%m%d') = date_format(now(), '%Y%m%d')
+					then date_format(date, '%H:%i:%s')
+					else date_format(date, '%y.%m.%d')
+				    end date
+		from notice
+		where 1=1
+		order by noticeId desc
+	</select>
+
+	<select id="getTotalCount" parameterType="map" resultType="int">
+		select count(noticeId)
+		from notice
+		<if test="word != null and word != ''">
+			<if test="key == 'title'">
+				where title like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'title'">
+				where ${key} = #{word}
+			</if>
+		</if>
+	</select>
+	
+	<select id="getArticle" parameterType="int" resultType="noticeDto">
+		select noticeId, author, title, content, date
+		from notice
+		where noticeId = #{noticeId}
+	</select>
+	
+<!-- 	<update id="updateHit" parameterType="int">
+		update board
+		set hit = hit + 1
+		where articleno = #{articleno}
+	</update> -->
+	
+	<update id="modifyArticle" parameterType="noticeDto">
+		update notice
+		set title = #{title}, content = #{content}
+		where noticeId = #{noticeId}
+	</update>
+
+	<select id="HighId" resultType="int">
+	select max(noticeId) from notice;
+	</select>
+
+
+<!-- 	<delete id="deleteMemo" parameterType="int">
+		delete from memo
+		where articleno = #{articleno}
+	</delete>
+ -->	
+	<delete id="deleteArticle" parameterType="int">
+		delete from notice
+		where noticeId = #{noticeId}
+	</delete>
+
+</mapper>
+

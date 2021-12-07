@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.vue.model.mapper.MemberMapper">
+
+	<select id="login" parameterType="memberDto" resultType="memberDto">
+		select memberName, memberId, memberEmail
+		from member
+		where memberId = #{memberId} and memberPw = #{memberPw}
+	</select>
+	
+	<select id="memberInfo" parameterType="String" resultType="memberDto">
+		select memberName, memberId, memberPw, memberEmail, memberAddress, memberDate
+		from member
+		where memberId = #{memberId}
+	</select>
+
+	<insert id="registerMember" parameterType="memberDto">
+		insert into member(memberId, memberPw, memberName, memberEmail, memberAddress, memberPhone, memberDate)
+		values (#{memberId}, #{memberPw}, #{memberName}, #{memberEmail}, '', '', now())
+	</insert>
+
+	<update id="modifyMember" parameterType="memberDto">
+		update member
+		set memberName = #{memberName}, memberEmail = #{memberEmail}
+		where memberId = #{memberId}
+	</update>
+</mapper>

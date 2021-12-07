@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.SearchingServiceMapper">
+
+<select id="listDong" parameterType="String" resultType="houseInfoDto">
+	select h.aptCode, h.aptName, h.buildYear, d.dongCode, d.dongName, h.jibun, h.lat, h.lng, d.sidoName, d.gugunName,
+	       hd.dealYear, hd.dealMonth, hd.dealDay, hd.area, hd.dealAmount as recentPrice, hd.no
+	from dongCode d 
+	join houseInfo h 
+	on d.dongCode = h.dongCode 
+	join houseDeal hd 
+	on hd.aptCode = h.aptCode  
+	where d.dongName=#{dongName};
+	</select>
+</mapper>
+

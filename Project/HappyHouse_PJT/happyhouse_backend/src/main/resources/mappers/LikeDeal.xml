@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.LikeDealMapper">
+
+
+
+	<insert id="insertMylike" parameterType="com.ssafy.vue.model.LikeDealDto">
+		insert into likeDeal (memberId, aptCode, likedealDate)
+		values (#{memberId}, #{aptCode}, now())
+	</insert>
+	
+	<select id="HighId" resultType="int">
+	select max(likeId) from likeDeal;
+	</select>
+	
+	<delete id="deleteLike" parameterType="likeDealDto">
+	delete from likeDeal where aptCode = #{aptCode} and memberId = #{memberId}
+	</delete>
+	
+	<select id="listMyLike" parameterType="likeDealDto" resultType="houseInfoDto">
+		select h.aptCode, h.aptName, h.buildyear, h.dongCode, h.dongName, h.jibun, h.lat, h.lng, si.sidoname, gu.gugunname,
+			   (select dealAmount from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) recentPrice
+		from likeDeal lk
+		join houseinfo h
+		on lk.aptCode = h.aptCode
+		    left join sidocode si
+		    on left(h.dongcode,2) = left(si.sidocode,2)
+			left join guguncode gu
+			on left(h.dongcode,5) = left(gu.guguncode,5)
+		where memberId = #{memberId}
+		order by h.aptName
+	</select>
+	
+</mapper>
+

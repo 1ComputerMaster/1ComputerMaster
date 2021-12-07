@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.BoardMapper">
+
+
+
+	<insert id="writeArticle" parameterType="com.ssafy.vue.model.BoardDto">
+		<selectKey resultType="int" keyProperty="boardId" order="BEFORE">
+			select MAX(boardId) + 1 from board
+		</selectKey>
+		insert into board (title, content, author, date, boardId, memberId)
+		values (#{title}, #{content}, #{author}, now(),#{boardId},#{author})
+	</insert>
+	
+	<select id="HighId" resultType="int">
+	select max(boardId) from board;
+	</select>
+	<select id="listArticle" parameterType="map" resultType="boardDto">
+		select boardId, author, title, content,
+				case when date_format(date, '%Y%m%d') = date_format(now(), '%Y%m%d')
+				then date_format(date, '%H:%i:%s')
+				else date_format(date, '%y.%m.%d')
+				end date
+		from board
+		<if test="word != null and word != ''">
+			<if test="key == 'title'">
+				where title like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'title'">
+				where ${key} = #{word}
+			</if>
+		</if>
+		order by boardId desc
+		limit #{start}, #{spp}
+	</select>
+	
+	<select id="getTotalCount" parameterType="map" resultType="int">
+		select count(boardId)
+		from board
+		<if test="word != null and word != ''">
+			<if test="key == 'title'">
+				where title like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'title'">
+				where ${key} = #{word}
+			</if>
+		</if>
+	</select>
+	
+	<select id="getArticle" parameterType="int" resultType="boardDto">
+		select boardId, author, title, content, date
+		from board
+		where boardId = #{boardId}
+	</select>
+	
+<!-- 	<update id="updateHit" parameterType="int">
+		update board
+		set hit = hit + 1
+		where articleno = #{articleno}
+	</update> -->
+	
+	<update id="modifyArticle" parameterType="boardDto">
+		update board
+		set title = #{title}, content = #{content}
+		where boardId = #{boardId}
+	</update>
+
+<!-- 	<delete id="deleteMemo" parameterType="int">
+		delete from memo
+		where articleno = #{articleno}
+	</delete>
+ -->	
+	<delete id="deleteArticle" parameterType="int">
+		delete from board
+		where boardId = #{boardId}
+	</delete>
+
+</mapper>
+

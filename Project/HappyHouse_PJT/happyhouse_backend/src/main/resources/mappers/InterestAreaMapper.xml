@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.InterestedAreaMapper">
+
+	<select id="selectdongCode" resultType="String" parameterType="interestedAreaDto">
+	 select dongCode from dongCode where dongName = #{dongName}
+	</select>
+
+	<insert id="InsertInterest" parameterType="interestedAreaDto">
+		insert into InterestedArea (memberId, dongCode, interDate)
+		values (#{memberId}, #{dongCode}, now())
+	</insert>
+	
+	<select id="HighId" resultType="int">
+		select max(interId) from InterestedArea;
+	</select>
+	
+	<delete id="deleteInterest" parameterType="interestedAreaDto">
+	delete from InterestedArea where dongCode = #{dongCode}
+	</delete>
+	
+	
+	<select id="listInterest" parameterType="interestedAreaDto" resultType="interestedAreaDto">
+		select d.dongCode,d.sidoName,d.gugunName,d.dongName, b.lat, b.lng
+		from interestedarea a
+				 join dongCode d
+					  on a.dongCode = d.dongCode
+				 join baseaddress b
+					  on d.dongCode = b.dongCode
+		where a.memberId = #{memberId}
+	</select>
+
+</mapper>
+
