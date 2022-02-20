@@ -1,0 +1,30 @@
+.footer{
+  background: #D3E4CD;
+  height: 13rem;
+  /* position: absolute; */
+  /* bottom: 0; */
+  width: 100%;
+}
+.copyright_text p{
+  color: darkgrey;
+  font-size:1rem;
+  line-height: 25px;
+  padding:40px;
+  max-width: 100%;
+  font-weight: bold;
+}
+
+.copyright_text p a{
+  padding:0px 10px;
+  color:black;
+}
+
+.footer_socail{
+  padding:40px; 
+  text-align: right;
+}
+.footer_socail a i{
+  font-size:1.5rem;
+  color:black;
+  padding: 0px 10px;
+}
