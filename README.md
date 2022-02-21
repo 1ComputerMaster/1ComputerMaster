@@ -1,5 +1,5 @@
 - 👋 안녕하세요 저는 김형우입니다.
-- 👀 Algorithm & Web Study
+- 👀 [Algorithm](https://github.com/1ComputerMaster/Algorithm)
 - 🌱 SSAFY
 - 📫 Connect with me <ksd5653@naver.com>
 
