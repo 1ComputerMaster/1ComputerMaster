@@ -13,7 +13,7 @@
 | 백엔드 | Java 17, SpringBoot 2.4.5, OpenVidu, JWT 0.9.1, Lombok, myBatis, SMTP, SWAGGER |
 | DB | MySQL : 8.0.27  |
 | 운영체제, 서버, Infra | Ubuntu 20.04, Kurent, Coturn, Openvidu, AWS EC2 |
-|  |  |
+
 
 
 ## 📝 프로젝트 개요
