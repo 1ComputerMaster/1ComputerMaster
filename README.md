@@ -4,7 +4,7 @@
 - 📫 Connect with me <ksd5653@naver.com>
 
 
-## 💞️ Projects 
+## 💞️ [Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
  ### 1. [헬스프렌즈](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HealthFriend)
 
 **COMMUNICATION**
