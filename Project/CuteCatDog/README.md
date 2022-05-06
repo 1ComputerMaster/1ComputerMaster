@@ -101,8 +101,3 @@
 - 배포 자동화를 이해하기 위해서 더욱 공부가 필요하다고 느꼈습니다.
 - 적극적인 단위 테스트를 통해 (Front↔ Back) 통신간 발생하는 문제에 대해 빠른 수정 필요함을 느꼈습니다.
 
-### 🔗 링크
-
-[1ComputerMaster/Project/CuteCatDog at main · 1ComputerMaster/1ComputerMaster](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/CuteCatDog)
-
-
