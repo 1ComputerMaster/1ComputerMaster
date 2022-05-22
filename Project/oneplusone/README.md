@@ -1,6 +1,9 @@
 # **1bool1**
+<div align="center">
 
 ![png_1](./exec/로고/로고.png)
+
+</div>
 
 
 ## 📝 프로젝트 개요
