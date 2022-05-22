@@ -5,7 +5,24 @@
 
 
 ## 💞️ [Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
- ### 1. [헬스프렌즈](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HealthFriend)
+###  1.🏠 [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
+
+**WEATHER**
+
+- 실시간으로 해당 위치의 날씨 정보를 알려줍니다.
+
+**REAL ESTATE**
+
+- 해당 위치의 부동산 정보 노출합니다.
+
+**NEWS LETTER**
+
+- 공공 API를 이용한 뉴스 정보를 파싱 합니다.
+
+**MAP INFO**
+
+- 지도 정보를 KAKAO API를 이용하여서 노출합니다.
+ ### 2.🏋️‍♀️ [헬스프렌즈](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HealthFriend)
 
 **COMMUNICATION**
 
@@ -23,25 +40,8 @@
 
 - 도전정신 - 누구나 헬.프 온라인 서비스를 통해 몸짱이 될 수 있다고 자부합니다.
 
-###  2.  [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
 
-**WEATHER**
-
-- 실시간으로 해당 위치의 날씨 정보를 알려줍니다.
-
-**REAL ESTATE**
-
-- 해당 위치의 부동산 정보 노출합니다.
-
-**NEWS LETTER**
-
-- 공공 API를 이용한 뉴스 정보를 파싱 합니다.
-
-**MAP INFO**
-
-- 지도 정보를 KAKAO API를 이용하여서 노출합니다.
-- 
-###  3.  [큣캣독](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/CuteCatDog)
+###  3.🐶 [큣캣독](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/CuteCatDog)
 
 
 **COMMUNICATION**
