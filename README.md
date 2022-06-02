@@ -63,3 +63,24 @@
 
 
 ###  4.1️⃣ [1BOOL1](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/oneplusone)
+
+**Anonymous communication** 
+
+- 익명의 의사소통 - 사람들과의 기본적인 의사소통을 익명으로 할 수 있어 부담을 내려 놓고 소통 할 수 있습니다.
+
+**Recipe**
+
+- 레시피 - 사용자들간 편의점 음식들로만 구성된 음식을 제작 할 수 있습니다.
+
+**Easy login**
+
+- 쉬운 로그인 - 카카오톡 Login API를 이용하여 회원 가입 절차가 필요 없이 로그인 가능합니다.
+
+**Event**
+
+- 이벤트 - 이벤트를 크롤링 데이터로 수집하여 각각의 편의점 마다 세일하는 물품 및 이벤트 상품을 둘러 볼 수 있습니다. 
+
+**Notification**
+
+- 알람 - 알람 기능을 통하여 사람들이 카카오톡 로그인이 정상적으로 완료 됨을 알 수 있습니다.
+
