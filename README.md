@@ -1,11 +1,16 @@
-## 😀 Let me introduce my self!
+# Blog
+- **Tistory (k8s study)** : tester-1.tistory.com 
+- **Notion (SSAFY Project)** : https://harvest-dragon-6fc.notion.site/9a9c5961884e46cd8a0be4ce1ca9f530
+
+
+## 😀 간단 소개 글
 - 👋 안녕하세요 저는 김형우입니다.
-- 👀 [Algorithm](https://github.com/1ComputerMaster/Algorithm)
-- 🌱 SSAFY
+- 👀 [Algorithm Study](https://github.com/1ComputerMaster/Algorithm)
+- 🌱 SSAFY 6기 졸업
 - 📫 Connect with me <ksd5653@naver.com>
 
 
-## 💞️ [Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
+## 💞️ [SSAFY - Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
 ###  1.🏠 [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
 
 **WEATHER**
