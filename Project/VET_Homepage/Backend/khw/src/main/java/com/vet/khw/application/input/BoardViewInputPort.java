@@ -16,6 +16,6 @@ public class BoardViewInputPort implements BoardViewUseCase {
     @Override
     public List<Board> getBoards(Predicate<Board> filter) {
         var routers = boardViewOutputPort.fetchBoards();
-        return Board.retrieveRouter(routers, filter);
+        return Board.retrieveBoard(routers, filter);
     }
 }

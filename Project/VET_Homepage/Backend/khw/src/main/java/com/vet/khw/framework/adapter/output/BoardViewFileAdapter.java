@@ -3,6 +3,7 @@ package com.vet.khw.framework.adapter.output;
 import com.vet.khw.application.output.BoardViewOutputPort;
 import com.vet.khw.domain.Board;
 import com.vet.khw.domain.BoardType;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
 import java.io.BufferedReader;
@@ -17,8 +18,7 @@ public class BoardViewFileAdapter implements BoardViewOutputPort {
         List<Board> boards = new ArrayList<>();
         try (Stream<String> stream = new BufferedReader(
                 new InputStreamReader(
-                        BoardViewFileAdapter.class.getClassLoader().
-                                getResourceAsStream("boards.txt"))).lines()) {
+                        new ClassPathResource("boards.txt").getInputStream(),"UTF-8")).lines()) {
                 stream.forEach(line ->{
                 String[] boardEntry = line.split(";");
                 var type = boardEntry[0];

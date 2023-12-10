@@ -29,7 +29,7 @@ public class Board {
         return p -> p.getBoardType() == BoardType.ADMIN;
     }
 
-    public static List<Board> retrieveRouter(List<Board> boards, Predicate<Board> predicate){
+    public static List<Board> retrieveBoard(List<Board> boards, Predicate<Board> predicate){
         return boards.stream()
                 .filter(predicate)
                 .collect(Collectors.<Board>toList());
