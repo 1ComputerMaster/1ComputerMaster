@@ -17,7 +17,7 @@ import static org.mockito.Mockito.when;
 public class UserServiceTest {
 
     @Autowired
-    private UserService userService;
+    private UserService<User,Long> userService;
 
     @MockBean
     private UserDao userDao;
