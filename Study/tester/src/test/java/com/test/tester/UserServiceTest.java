@@ -3,8 +3,13 @@ package com.test.tester;
 import com.test.tester.portableServiceAdapter.dao.UserDao;
 import com.test.tester.portableServiceAdapter.dto.User;
 import com.test.tester.portableServiceAdapter.service.UserService;
+import com.test.tester.portableServiceAdapter.service.impl.UserServiceImpl;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -13,14 +18,18 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
 
-@SpringBootTest
+@ExtendWith(MockitoExtension.class)
 public class UserServiceTest {
 
-    @Autowired
     private UserService<User,Long> userService;
 
-    @MockBean
+    @Mock
     private UserDao userDao;
+
+    @BeforeEach
+    public void setUp(){
+        userService = new UserServiceImpl(userDao);
+    }
 
     @Test
     public void testUserService() {
