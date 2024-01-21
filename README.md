@@ -8,7 +8,7 @@
 - 👀 [Algorithm Study](https://github.com/1ComputerMaster/Algorithm)
 - 🌱 SSAFY 6기 졸업
 - 📫 Connect with me <ksd5653@naver.com>
-
+- **아래 프로젝트들은 모두 취업전 진행했던 프로젝트로 구현 위주의 개발을 했던 기억이 있습니다. 현재는 기본적 인 것 부터 개선하여 좋지 못한 코드를 짜지 않으려 하고 있습니다.**
 
 ## 💞️ [SSAFY - Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
 ###  1.🏠 [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
