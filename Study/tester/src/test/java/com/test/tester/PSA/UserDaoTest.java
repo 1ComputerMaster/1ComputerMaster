@@ -1,4 +1,4 @@
-package com.test.tester;
+package com.test.tester.PSA;
 
 import com.test.tester.portableServiceAdapter.dao.UserDao;
 import com.test.tester.portableServiceAdapter.dao.impl.UserDaoImpl;

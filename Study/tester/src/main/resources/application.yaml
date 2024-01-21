@@ -7,3 +7,9 @@ spring:
   h2:
     console:
       enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+file:
+  path: C:\Users\ksd56\Desktop\Coding\00_PSA_PortableServiceAdapter\1ComputerMaster\Study\tester\input.txt
