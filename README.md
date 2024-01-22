@@ -1,5 +1,5 @@
 # Blog
-- **Tistory (k8s study)** : https://tester-1.tistory.com/
+- **Tistory (K8S/Spring/Java study)** : https://tester-1.tistory.com/
 - **Notion (SSAFY Project)** : https://harvest-dragon-6fc.notion.site/9a9c5961884e46cd8a0be4ce1ca9f530 
 
 
