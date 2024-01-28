@@ -18,7 +18,7 @@ spring:
 server:
   tomcat:
     threads:
-      max: 20
+      max: 1
 file:
   path: C:\Users\ksd56\Desktop\Coding\00_PSA_PortableServiceAdapter\1ComputerMaster\Study\tester\input.txt
 
