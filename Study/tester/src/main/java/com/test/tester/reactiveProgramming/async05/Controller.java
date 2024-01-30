@@ -132,7 +132,7 @@ public class Controller {
     @Bean
     public ThreadPoolTaskExecutor myThreadPool() {
         ThreadPoolTaskExecutor te = new ThreadPoolTaskExecutor();
-
+        te.setThreadNamePrefix("TESTER-THREAD");
         te.setCorePoolSize(1);
         te.setMaxPoolSize(10);
         te.initialize();
