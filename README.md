@@ -8,9 +8,21 @@
 - 👀 [Algorithm Study](https://github.com/1ComputerMaster/Algorithm)
 - 🌱 SSAFY 6기 졸업
 - 📫 Connect with me <ksd5653@naver.com>
-- **아래 프로젝트들은 모두 취업전 진행했던 프로젝트로 구현 위주의 개발을 했던 기억이 있습니다. 현재는 기본적 인 것 부터 개선하여 좋지 못한 코드를 짜지 않으려 하고 있습니다.**
 
-## 💞️ [SSAFY - Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
+## Certificate
+**CKA (Certified Kubernetes Administrator)**
+
+![cka-certified-kubernetes-administrator](https://github.com/user-attachments/assets/7a6f2426-5ccd-48d8-9f51-bba2a4e3a960) 
+
+**CKAD (Certified Kubernetes Application Developer)**
+
+![ckad-certified-kubernetes-application-developer](https://github.com/user-attachments/assets/89f8e378-9164-43c6-8f0f-0b37b87dab1a)
+
+## ❇️ [K8S](https://github.com/1ComputerMaster/K8S) 
+### 1. 🎆 [Cilium 메모리 누수 문제 모방을 통한 공부 - KAKAO](https://github.com/1ComputerMaster/K8S/tree/main/0.%20Cilium%20Memory%20Leak)
+- 카카오 클라우드의 사례를 참고하여 Go Memory 구조의 이해
+
+## ❇️ [SSAFY - Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
 ###  1.🏠 [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
 
 **WEATHER**
