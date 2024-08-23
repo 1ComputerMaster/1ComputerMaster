@@ -22,6 +22,14 @@
 ### 1. 🎆 [Cilium 메모리 누수 문제 모방을 통한 공부 - KAKAO](https://github.com/1ComputerMaster/K8S/tree/main/0.%20Cilium%20Memory%20Leak)
 - 카카오 클라우드의 사례를 참고하여 Go Memory 구조의 이해
 
+### 2. 🎆 [Kubernetest the hard way](https://github.com/1ComputerMaster/K8S/tree/main/1.%20Kubernetes%20the%20hard%20way)
+- 쿠버네티스 프로젝트를 0~1까지 모두 구성하여 실제 구조 이해 및 실력 향상
+
+## ❇️[Eureka Spring cloud with MSA](https://github.com/1ComputerMaster/codeStudy)
+- Spring Eureka Server를 사용하여 서비스 관리 및 추적
+- Spring API Gateway를 사용하여 서비스 라우팅 및 인증 처리
+- 마이크로 서비스인 유저 서비스 생성
+
 ## ❇️ [SSAFY - Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
 ###  1.🏠 [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
 
