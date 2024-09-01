@@ -1,111 +1,104 @@
-# Blog
-- **Tistory (K8S/Spring/Java study)** : https://tester-1.tistory.com/
-- **Notion (SSAFY Project)** : https://harvest-dragon-6fc.notion.site/9a9c5961884e46cd8a0be4ce1ca9f530 
+# 👋 Hi, I'm 김형우
 
+**Backend Developer | DevOps Enthusiast**
 
-## 😀 간단 소개 글
-- 👋 안녕하세요 저는 김형우입니다.
-- 👀 [Algorithm Study](https://github.com/1ComputerMaster/Algorithm)
-- 🌱 SSAFY 6기 졸업
-- 📫 Connect with me <ksd5653@naver.com>
+Welcome to my GitHub! I specialize in backend development and DevOps practices with a focus on building scalable systems and automating workflows. Below, you'll find details about my experience, projects, and more.
 
-## Certificate
-**CKA (Certified Kubernetes Administrator)**
+---
 
-![cka-certified-kubernetes-administrator](https://github.com/user-attachments/assets/7a6f2426-5ccd-48d8-9f51-bba2a4e3a960) 
+## 🛠️ Tech Stack
 
-**CKAD (Certified Kubernetes Application Developer)**
+### **Languages**
+![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
 
-![ckad-certified-kubernetes-application-developer](https://github.com/user-attachments/assets/89f8e378-9164-43c6-8f0f-0b37b87dab1a)
+### **Frameworks & Libraries**
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?logo=spring-boot&logoColor=white&style=flat)
 
-## ❇️ [K8S](https://github.com/1ComputerMaster/K8S) 
-### 1. 🎆 [Cilium 메모리 누수 문제 모방을 통한 공부 - KAKAO](https://github.com/1ComputerMaster/K8S/tree/main/0.%20Cilium%20Memory%20Leak)
-- 카카오 클라우드의 사례를 참고하여 Go Memory 구조의 이해
+### **Databases**
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat)
 
-### 2. 🎆 [Kubernetest the hard way](https://github.com/1ComputerMaster/K8S/tree/main/1.%20Kubernetes%20the%20hard%20way)
-- 쿠버네티스 프로젝트를 0~1까지 모두 구성하여 실제 구조 이해 및 실력 향상
+### **Version Control**
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
+![Bitbucket](https://img.shields.io/badge/-Bitbucket-0052CC?logo=bitbucket&logoColor=white&style=flat)
 
-## ❇️[Eureka Spring cloud with MSA](https://github.com/1ComputerMaster/codeStudy)
-- Spring Eureka Server를 사용하여 서비스 관리 및 추적
-- Spring API Gateway를 사용하여 서비스 라우팅 및 인증 처리
-- 마이크로 서비스인 유저 서비스 생성
+### **CI/CD Tools**
+![Bamboo](https://img.shields.io/badge/-Bamboo-0052CC?logo=bamboo&logoColor=white&style=flat)
+![Argo CD](https://img.shields.io/badge/-Argo%20CD-37AEE2?logo=argo-cd&logoColor=white&style=flat)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white&style=flat)
+![Harbor](https://img.shields.io/badge/-Harbor-60B932?logo=harbor&logoColor=white&style=flat)
 
-## ❇️ [SSAFY - Projects](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project) 
-###  1.🏠 [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
+### **Project Management**
+![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)
 
-**WEATHER**
+### **Containerization & Orchestration**
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat)
 
-- 실시간으로 해당 위치의 날씨 정보를 알려줍니다.
+### **Monitoring & Logging**
+![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?logo=prometheus&logoColor=white&style=flat)
+![Loki](https://img.shields.io/badge/-Loki-F2C20C?logo=loki&logoColor=white&style=flat)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?logo=grafana&logoColor=white&style=flat)
+![FluentD](https://img.shields.io/badge/-FluentD-0E83C8?logo=fluentd&logoColor=white&style=flat)
 
-**REAL ESTATE**
+---
 
-- 해당 위치의 부동산 정보 노출합니다.
+## 📜 Certifications
 
-**NEWS LETTER**
+![CKA](https://img.shields.io/badge/Certified%20Kubernetes%20Administrator-CKA-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge)
+![CKAD](https://img.shields.io/badge/Certified%20Kubernetes%20Application%20Developer-CKAD-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge)
+---
 
-- 공공 API를 이용한 뉴스 정보를 파싱 합니다.
+## 🌱 Experience & Projects
 
-**MAP INFO**
+### 🎆 [Kubernetes the Hard Way](https://github.com/1ComputerMaster/K8S/tree/main/1.%20Kubernetes%20the%20hard%20way)
+- Built and configured Kubernetes from scratch to gain a deep understanding of its architecture and enhance my skills.
 
-- 지도 정보를 KAKAO API를 이용하여서 노출합니다.
- ### 2.🏋️‍♀️ [헬스프렌즈](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HealthFriend)
+### 🎆 [Cilium 메모리 누수 문제 모방을 통한 공부 - KAKAO](https://github.com/1ComputerMaster/K8S/tree/main/0.%20Cilium%20Memory%20Leak)
+- Studied Go memory structures by replicating and analyzing memory leaks in Cilium, inspired by cases from Kakao Cloud.
 
-**COMMUNICATION**
+### ❇️ [Eureka Spring Cloud with MSA](https://github.com/1ComputerMaster/codeStudy)
+- Implemented service management and routing with Spring Eureka Server and Spring API Gateway.
+- Created a microservice for user management within a larger MSA architecture.
 
-- 실시간 화상 통화 - 언제 어디서든지 편안하고 자유롭게 참여가능합니다.
+### 🏠 [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
+- **Weather**: Provides real-time weather information for the user’s location.
+- **Real Estate**: Displays real estate information for the selected area.
+- **News Letter**: Parses news data using public APIs.
+- **Map Info**: Integrates with KAKAO API to display location-based information.
 
- **PREVENT INFECTION**
+### 🏋️‍♀️ [헬스프렌즈](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HealthFriend)
+- **Communication**: Enables real-time video communication for remote workouts.
+- **Prevent Infection**: Offers a solution for exercising together remotely during the pandemic.
+- **IIFYM**: Provides dietary recommendations based on macro nutrition targets.
+- **Anybody Can do it**: Encourages users to achieve fitness goals through online challenges.
 
-- 전염 방지 - 코로나 시국에 맞춰서 비대면으로 운동을 함께 할 수 있는 방법을 찾았습니다.
+### 🐶 [큣캣독](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/CuteCatDog)
+- **Communication**: Aims to understand pets' thoughts by analyzing their facial expressions using AI.
+- **AI**: Utilizes AI to analyze pet behavior and expressions.
+- **SNS**: Allows users to share their pet images, enhancing user engagement.
+- **Notification**: Notifies users about comments and QnA responses on their posts.
 
- **IF I Fits Your Macros**
+### 1️⃣ [1BOOL1](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/oneplusone)
+- **Anonymous communication**: Facilitates communication without revealing user identities, reducing social pressure.
+- **Recipe**: Enables users to create recipes using convenience store ingredients.
+- **Easy login**: Simplifies login using the KakaoTalk API.
+- **Event**: Crawls event data to provide information on promotions and discounts at various convenience stores.
+- **Notification**: Provides notifications to confirm successful login and other events.
 
-- IIFYM - 식단 탄단지 비율만 지켜서 먹으면 어떻게든 살을 뺄 수 있게 설정해드립니다.
+---
 
- **Anybody Can do it**
+## 📫 Let's Connect!
 
-- 도전정신 - 누구나 헬.프 온라인 서비스를 통해 몸짱이 될 수 있다고 자부합니다.
+- **Tistory (K8S/Spring/Java study)**: [Visit My Blog](https://tester-1.tistory.com/)
+- **Notion (SSAFY Project)**: [Check Out My Work](https://harvest-dragon-6fc.notion.site/Hyungwoo-Kim-Backend-Developer-6c8c728b4a044bc8b83d0e94bdcf9fc0)
+- **Email**: khw7895@gmail.com
 
+---
 
-###  3.🐶 [큣캣독](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/CuteCatDog)
+## 📈 GitHub Stats
 
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=1ComputerMaster&show_icons=true&theme=radical)
 
-**COMMUNICATION**
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1ComputerMaster&layout=compact&theme=radical)
 
-- 의사소통 - 반려동물이 말을 할 수 있다면에서 생각한 것으로 반려동물의 생각을 알고자 하는 마음에서 시작했습니다.
-
-**AI**
-
-- 인공지능 - 인공지능 분석 기술을 통해서 반려동물의 표정을 분석하여 그들의 입장이 되어보려고 하였습니다.
-
-**SNS**
-
-- SNS - 본인만의 SNS로 반려동물 이미지를 공유하여 사용자들의 사용성을 높였습니다.
-
-**Notification**
-
-- 알람 - 기본적이지만 중요한 기능으로 푸시 알람 기능을 부여하여 사용자들이 자신의 게시글에 댓글, QnA가 달리게 되면 확인 할 수 있도록 하였습니다.
-
-
-###  4.1️⃣ [1BOOL1](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/oneplusone)
-
-**Anonymous communication** 
-
-- 익명의 의사소통 - 사람들과의 기본적인 의사소통을 익명으로 할 수 있어 부담을 내려 놓고 소통 할 수 있습니다.
-
-**Recipe**
-
-- 레시피 - 사용자들간 편의점 음식들로만 구성된 음식을 제작 할 수 있습니다.
-
-**Easy login**
-
-- 쉬운 로그인 - 카카오톡 Login API를 이용하여 회원 가입 절차가 필요 없이 로그인 가능합니다.
-
-**Event**
-
-- 이벤트 - 이벤트를 크롤링 데이터로 수집하여 각각의 편의점 마다 세일하는 물품 및 이벤트 상품을 둘러 볼 수 있습니다. 
-
-**Notification**
-
-- 알람 - 알람 기능을 통하여 사람들이 카카오톡 로그인이 정상적으로 완료 됨을 알 수 있습니다.
-
+---
