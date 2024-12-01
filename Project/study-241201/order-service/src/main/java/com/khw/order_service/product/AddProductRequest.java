@@ -1,4 +1,4 @@
-package com.khw.order_service;
+package com.khw.order_service.product;
 
 import org.springframework.util.Assert;
 

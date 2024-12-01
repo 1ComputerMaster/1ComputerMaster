@@ -1,6 +1,7 @@
 package com.khw.order_service;
 
 
+import com.khw.order_service.product.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.data.domain.Example;
@@ -33,7 +34,7 @@ public class ProductServiceTest {
 
             @Override
             public <S extends Product> List<S> saveAllAndFlush(Iterable<S> entities) {
-                return List.of();
+                return null;
             }
 
             @Override
@@ -42,7 +43,7 @@ public class ProductServiceTest {
             }
 
             @Override
-            public void deleteAllByIdInBatch(Iterable<String> strings) {
+            public void deleteAllByIdInBatch(Iterable<Long> longs) {
 
             }
 
@@ -52,43 +53,43 @@ public class ProductServiceTest {
             }
 
             @Override
-            public Product getOne(String s) {
+            public Product getOne(Long aLong) {
                 return null;
             }
 
             @Override
-            public Product getById(String s) {
+            public Product getById(Long aLong) {
                 return null;
             }
 
             @Override
-            public Product getReferenceById(String s) {
+            public Product getReferenceById(Long aLong) {
                 return null;
             }
 
             @Override
             public <S extends Product> List<S> findAll(Example<S> example) {
-                return List.of();
+                return null;
             }
 
             @Override
             public <S extends Product> List<S> findAll(Example<S> example, Sort sort) {
-                return List.of();
+                return null;
             }
 
             @Override
             public <S extends Product> List<S> saveAll(Iterable<S> entities) {
-                return List.of();
+                return null;
             }
 
             @Override
             public List<Product> findAll() {
-                return List.of();
+                return null;
             }
 
             @Override
-            public List<Product> findAllById(Iterable<String> strings) {
-                return List.of();
+            public List<Product> findAllById(Iterable<Long> longs) {
+                return null;
             }
 
             @Override
@@ -97,12 +98,12 @@ public class ProductServiceTest {
             }
 
             @Override
-            public Optional<Product> findById(String s) {
+            public Optional<Product> findById(Long aLong) {
                 return Optional.empty();
             }
 
             @Override
-            public boolean existsById(String s) {
+            public boolean existsById(Long aLong) {
                 return false;
             }
 
@@ -112,7 +113,7 @@ public class ProductServiceTest {
             }
 
             @Override
-            public void deleteById(String s) {
+            public void deleteById(Long aLong) {
 
             }
 
@@ -122,7 +123,7 @@ public class ProductServiceTest {
             }
 
             @Override
-            public void deleteAllById(Iterable<? extends String> strings) {
+            public void deleteAllById(Iterable<? extends Long> longs) {
 
             }
 
@@ -138,7 +139,7 @@ public class ProductServiceTest {
 
             @Override
             public List<Product> findAll(Sort sort) {
-                return List.of();
+                return null;
             }
 
             @Override
