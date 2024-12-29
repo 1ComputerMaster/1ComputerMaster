@@ -1,4 +1,4 @@
-package com.khw.order_service;
+package com.khw.order_service.product;
 
 
 import com.khw.order_service.product.*;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
 
-public class ProductServiceTest {
+public class ProductOrderServiceTest {
     private ProductService productService;
     private ProductPort productPort;
     private ProductRepository productRepository;

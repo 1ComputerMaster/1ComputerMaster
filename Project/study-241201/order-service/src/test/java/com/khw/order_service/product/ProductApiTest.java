@@ -1,6 +1,7 @@
-package com.khw.order_service;
+package com.khw.order_service.product;
 
 
+import com.khw.order_service.ApiTest;
 import com.khw.order_service.product.*;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -26,13 +27,13 @@ public class ProductApiTest extends ApiTest {
 
     @Test
     void 상품등록(){
-        final var request = new AddProductRequest("TEST",1000,DiscountPolicy.NONE);
+        final var request = ProductSteps.상품등록_요청_생성();
         //API 요청
         final var response = 상품등록요청(request);
         assertThat(response.statusCode()).isEqualTo(HttpStatus.CREATED.value());
     }
 
-    private static ExtractableResponse<Response> 상품등록요청(AddProductRequest request) {
+    public static ExtractableResponse<Response> 상품등록요청(AddProductRequest request) {
         return RestAssured.given().log().all()
                 .contentType(MediaType.APPLICATION_JSON_VALUE)
                 .body(request)
@@ -41,4 +42,6 @@ public class ProductApiTest extends ApiTest {
                 .then()
                 .log().all().extract();
     }
+
+
 }
