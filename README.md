@@ -105,5 +105,5 @@ Welcome to my GitHub! I specialize in backend development and DevOps practices w
 
 ## 🪪 Card
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ksd5653)](https://solved.ac/ksd5653/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ksd5653)](https://solved.ac/profile/ksd5653/)
 
