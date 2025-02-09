@@ -102,3 +102,8 @@ Welcome to my GitHub! I specialize in backend development and DevOps practices w
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1ComputerMaster&layout=compact&theme=radical)
 
 ---
+
+## 🪪 Card
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=ksd5653)](https://solved.ac/profile/ksd5653/)
+
