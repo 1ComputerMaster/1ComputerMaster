@@ -1,8 +1,6 @@
 package com.khw.order_service.product;
 
-import com.khw.order_service.product.DiscountPolicy;
 import org.springframework.util.Assert;
-
 public record GetProductResponse(long id,
                                  String name,
                                  int price,

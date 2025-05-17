@@ -26,14 +26,18 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'com.google.guava:guava:31.1-jre'
+	implementation 'com.googlecode.guava-osgi:guava-osgi:11.0.1'
 	implementation 'com.h2database:h2'
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation ('io.reactors:reactors-core_2.11:0.8')
+	implementation ('ch.qos.logback:logback-core:1.5.8')
 
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'com.h2database:h2:2.2.224'
+	testImplementation('org.projectlombok:lombok')
 
-	testImplementation 'io.rest-assured:rest-assured:5.5.0'
+	testImplementation 'io.rest-assured:rest-assured:5.3.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
