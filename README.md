@@ -50,6 +50,13 @@ Welcome to my GitHub! I specialize in backend development and DevOps practices w
 
 ## 🌱 Experience & Projects
 
+### 🏦 [MSA-PaymentSystem](https://github.com/1ComputerMaster/MSA/tree/main)
+- **Hexagonal Architecture**: Clean separation of core business logic and infrastructure adapters
+- **Kafka Event Streaming**: Asynchronous logging system via logging.out.stdout topics
+- **Docker Compose**: One-command setup for MySQL, Zookeeper, Kafka, Axon Server, and all microservices
+- **SpringDoc OpenAPI**: Automatic REST API documentation generation for each service
+- **CI/CD Foundation**: Sample build scripts demonstrating GitHub Actions/Jenkins integration
+
 ### 🎆 [Kubernetes the Hard Way](https://github.com/1ComputerMaster/K8S/tree/main/1.%20Kubernetes%20the%20hard%20way)
 - Built and configured Kubernetes from scratch to gain a deep understanding of its architecture and enhance my skills.
 
