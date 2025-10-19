@@ -97,7 +97,7 @@ Welcome to my GitHub! I specialize in backend development and DevOps practices w
 ## 📫 Let's Connect!
 
 - **Tistory (K8S/Spring/Java study)**: [Visit My Blog](https://tester-1.tistory.com/)
-- **Notion (SSAFY Project)**: [Check Out My Work](https://harvest-dragon-6fc.notion.site/Resume-221b5ad41ba280e5aa9dd106f288df3d)
+- **Notion (Resume)**: [Check Out My Work](https://harvest-dragon-6fc.notion.site/Resume-221b5ad41ba280e5aa9dd106f288df3d)
 - **Email**: khw7895@gmail.com
 
 ---
