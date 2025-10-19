@@ -50,20 +50,20 @@ Welcome to my GitHub! I specialize in backend development and DevOps practices w
 
 ## 🌱 Experience & Projects
 
-### 🏦 [MSA-PaymentSystem](https://github.com/1ComputerMaster/MSA/tree/main)
+### 🏦 [MSA-PaymentSystem (학습용)](https://github.com/1ComputerMaster/MSA/tree/main)
 - **Hexagonal Architecture**: Clean separation of core business logic and infrastructure adapters
 - **Kafka Event Streaming**: Asynchronous logging system via logging.out.stdout topics
 - **Docker Compose**: One-command setup for MySQL, Zookeeper, Kafka, Axon Server, and all microservices
 - **SpringDoc OpenAPI**: Automatic REST API documentation generation for each service
 - **CI/CD Foundation**: Docker Compose–based service orchestration and deployment pipeline
 
-### 🎆 [Kubernetes the Hard Way](https://github.com/1ComputerMaster/K8S/tree/main/1.%20Kubernetes%20the%20hard%20way)
+### 🎆 [Kubernetes the Hard Way (학습용)](https://github.com/1ComputerMaster/K8S/tree/main/1.%20Kubernetes%20the%20hard%20way)
 - Built and configured Kubernetes from scratch to gain a deep understanding of its architecture and enhance my skills.
 
-### 🎆 [Cilium 메모리 누수 문제 모방을 통한 공부 - KAKAO](https://github.com/1ComputerMaster/K8S/tree/main/0.%20Cilium%20Memory%20Leak)
+### 🎆 [Cilium 메모리 누수 문제 모방을 통한 공부 - KAKAO (학습용)](https://github.com/1ComputerMaster/K8S/tree/main/0.%20Cilium%20Memory%20Leak)
 - Studied Go memory structures by replicating and analyzing memory leaks in Cilium, inspired by cases from Kakao Cloud.
 
-### ❇️ [Eureka Spring Cloud with MSA](https://github.com/1ComputerMaster/codeStudy)
+### ❇️ [Eureka Spring Cloud with MSA (학습용)](https://github.com/1ComputerMaster/codeStudy)
 - Implemented service management and routing with Spring Eureka Server and Spring API Gateway.
 - Created a microservice for user management within a larger MSA architecture.
 
