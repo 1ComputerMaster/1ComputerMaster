@@ -67,25 +67,25 @@ Welcome to my GitHub! I specialize in backend development and DevOps practices w
 - Implemented service management and routing with Spring Eureka Server and Spring API Gateway.
 - Created a microservice for user management within a larger MSA architecture.
 
-### 🏠 [해피 하우스](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
+### 🏠 [해피 하우스 (2022)](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HappyHouse_PJT)
 - **Weather**: Provides real-time weather information for the user’s location.
 - **Real Estate**: Displays real estate information for the selected area.
 - **News Letter**: Parses news data using public APIs.
 - **Map Info**: Integrates with KAKAO API to display location-based information.
 
-### 🏋️‍♀️ [헬스프렌즈](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HealthFriend)
+### 🏋️‍♀️ [헬스프렌즈 (2022)](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/HealthFriend)
 - **Communication**: Enables real-time video communication for remote workouts.
 - **Prevent Infection**: Offers a solution for exercising together remotely during the pandemic.
 - **IIFYM**: Provides dietary recommendations based on macro nutrition targets.
 - **Anybody Can do it**: Encourages users to achieve fitness goals through online challenges.
 
-### 🐶 [큣캣독](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/CuteCatDog)
+### 🐶 [큣캣독 (2022)](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/CuteCatDog)
 - **Communication**: Aims to understand pets' thoughts by analyzing their facial expressions using AI.
 - **AI**: Utilizes AI to analyze pet behavior and expressions.
 - **SNS**: Allows users to share their pet images, enhancing user engagement.
 - **Notification**: Notifies users about comments and QnA responses on their posts.
 
-### 1️⃣ [1BOOL1](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/oneplusone)
+### 1️⃣ [1BOOL1 (2022)](https://github.com/1ComputerMaster/1ComputerMaster/tree/main/Project/oneplusone)
 - **Anonymous communication**: Facilitates communication without revealing user identities, reducing social pressure.
 - **Recipe**: Enables users to create recipes using convenience store ingredients.
 - **Easy login**: Simplifies login using the KakaoTalk API.
